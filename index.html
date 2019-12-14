@@ -1,0 +1,82 @@
+<html>
+    <head>
+
+
+    </head>
+
+    <body>
+        <script>
+            let fruit= ['banana', 'orange', 'apple', 'guava']
+            let numberOfindex= fruit.length
+            console.log (numberOfindex)
+
+            let car=['etios', 'fortuner', 'jeep', 'avanza']
+            let sorting= car.sort()
+            console.log (sorting)
+
+            let reverse= car.reverse()
+            console.log (reverse)
+
+            let indexingJazz= car.indexOf('fortuner')
+            console.log(indexingJazz)
+
+            let takeFruit= fruit.pop()
+            console.log(fruit)
+
+            let newFruit= fruit.push('mango')
+            console.log(fruit)
+
+            let shiftFruit= fruit.shift()
+            console.log(fruit)
+
+            let unShiftfruit= fruit.unshift('durian')
+            console.log(fruit)
+
+            let spliceFruit= fruit.splice(2, 0, 'lemon', 'melon')
+            console.log(fruit)
+
+            let sliceFruit= fruit.slice(1,4)
+            console.log(sliceFruit)
+
+            let combine= car.concat(fruit)
+            console.log (combine)
+            
+            let fruit2= ['jambu', 'kecipir', 'nanas', 'pisang']
+            let result= ''
+            for (i= 0 ; i <= 2 ; i++){
+                result += fruit2[i] + ' '}
+
+            console.log(result)
+
+            let numbers = [20, 35, 45]
+            let newNumber = numbers.map(number=>number*2)
+            let filterNumber = numbers.map(number=>number >1)
+            let new2Number = numbers.map(x=>{return x*2})
+            let filter2Number = numbers.map(x=>{return x >1})
+
+            console.log(newNumber)
+            console.log(filterNumber)
+            console.log(new2Number)
+            console.log(filter2Number)
+
+            let times = (a,b) => {
+                return a * b}
+                
+            let first = times(2,3)
+            console.log(first)
+
+            let plus = (a,b) => {
+                return a+b}
+
+            let second = plus(3,3)
+            console.log(second)
+
+            let divide = (a,b) => {
+                return a/b}
+
+            let third = divide(2,2)
+            console.log(third)
+        </script>
+    </body>
+    
+</html>
